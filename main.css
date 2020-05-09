@@ -1,11 +1,78 @@
+.wrapper{
+    min-height: 100vh;
+}
+
+div.navbar-brand {
+    padding-left: 30px;
+}
+
+div.navbar-end {
+    padding-right: 30px;
+}
+
+div.hero {
+    background-color: #e60103;
+    position: relative;
+}
+
+div.balloon {
+    position: relative;
+}
+div.balloon::before{
+    content: '';
+    position: absolute;
+    display: block;
+    right: 0;
+    top: -15px;
+    border-left: 80px solid #e60103;
+    border-top: 20px solid #e60103;
+    border-right: 20px solid #e60103;
+    border-bottom: 20px solid #e60103;
+}
+div.balloon::after{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    border-radius: 0 80% 0 0;
+    right: 0;
+    border-left: 100px solid #dad9d6;
+    border-top: 20px solid #dad9d6;
+    border-bottom: 20px solid #dad9d6;
+}
+
+h1.title, h2.subtitle {
+    color: #fff;
+}
+
 div.main {
-    background-color: #eeeeee;
+    background-color: #dad9d6;
 }
 
 div.container {
     font-family: 'Meiryo UI', sans-serif;
 }
 
+section.search {
+    padding: 20px;
+}
+
 .fa-fw {
-    margin-right: 10px;
+    margin-right: 5px;
+}
+
+input.input {
+    width: 250px;
+}
+
+footer.footer {
+    width: 100%;
+    background-color: #3c3c35;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
 }

@@ -1,13 +1,82 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <base target="_top">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://use.fontawesome.com/releases/v5.3.1/js/all.js" defer ></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css" />
-  </head>
-  <body>
-    test
-  </body>
+<base target="_top">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://use.fontawesome.com/releases/v5.6.0/js/all.js" defer></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css" />
+<link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+  <!-- ヘッダー部 -->
+  <header class="navbar">
+    <div class="navbar-brand">
+      <span class="navbar-item">
+        <img src="img/symbolmark.png">
+      </span>
+    </div>
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <a><i class="fa fa-fw fa-chair"></i>座席表</a>
+      </div>
+      <div class="navbar-item">
+        <a><i class="fa fa-fw fa-gift"></i>抽選会</a>
+      </div>
+    </div>
+  </header>
+  <!-- メイン部 -->
+  <div class="main">
+    <!-- 見出し -->
+    <div class="hero is-bold">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">忘年会 2020</h1>
+          <h2 class="subtitle">座席表</h2>
+        </div>
+      </div>
+    </div>
+    <div class="balloon"></div>
+    <!-- メインコンテンツ -->
+    <section class="search">
+      <div class="search">
+        <div class="field has-addons is-grouped is-grouped-centered">
+          <div class="control">
+            <input class="input" type="text" name="search" list="names" placeholder="名前を入力してください">
+            <datalist id="names">
+              <option value="aaa"></option>
+              <option value="bbb"></option>
+            </datalist>
+          </div>
+          <div class="control">
+            <a class="button is-info">
+              <i class="fa fa-fw fa-search"></i>検索</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="seat">
+
+    </section>
+    <article class="box media">
+      <div class="media-content">
+        <div class="content">
+          <p><strong>CASAREAL</strong><br>
+            内容、内容、内容、内容、内容、内容、内容、内容、内容、内容、内容、内容、内容<br>
+            <small><a>Like</a> · <a>Reply</a> · 3 hrs</small>
+          </p>
+        </div>
+      </div>
+    </article>
+  </div>
+  <!-- フッター部 -->
+  <footer class="footer">
+    <div class="container">
+      <div class="content has-text-centered">
+        Copyright 2020 XXX
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>
