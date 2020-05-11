@@ -2,12 +2,18 @@
     min-height: 100vh;
 }
 
+header.navbar {
+    position: relative;
+}
+
 div.navbar-brand {
-    padding-left: 30px;
+    padding-left: 10px;
 }
 
 div.navbar-end {
-    padding-right: 30px;
+    position: absolute;
+    top: 10px;
+    right: 0;
 }
 
 div.hero {
