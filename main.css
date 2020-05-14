@@ -79,6 +79,11 @@ footer.footer {
     font-size: 12px;
     text-align: center;
     padding: 10px 0;
-    position: absolute;
+    position: fixed;
+    left: 0;
     bottom: 0;
+}
+
+ellipse#e1 {
+    fill: #e60103;
 }
